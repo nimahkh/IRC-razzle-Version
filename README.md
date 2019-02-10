@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 **WARNING: This is the documentation for `razzle@next` (Webpack 4).**  
 [Go here for for razzle@0.8.x (stable) docs (Webpack 3)](https://github.com/jaredpalmer/razzle/tree/master).
 
@@ -261,3 +262,13 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/kentcdodds/all-contributors) specification. Contributions of any kind welcome!
+=======
+# IRC-razzle-Version
+IRC landing page with razzle
+
+```
+npm i 
+npm run build
+npm run start:prod
+```
+>>>>>>> 7d0027ecebb836dc75be825da21aac7cef1ee66e
