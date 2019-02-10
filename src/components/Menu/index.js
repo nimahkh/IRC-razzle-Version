@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import Logo from "../../assets/img/logo/144.png"
+import Lang from "../../langs/fa";
 
 class Menu extends Component {
     render() {
@@ -9,7 +10,7 @@ class Menu extends Component {
                     <div className="container">
                         <a className="navbar-brand js-scroll-trigger" href="#page-top">
                             <img src={Logo} alt="IRC" title="Iran React Community"/>
-                            <span>IRC <sup>نسخه بتا</sup></span>
+                            <span dangerouslySetInnerHTML={{ __html: Lang.Beta }} />
                         </a>
                         <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
                                 data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
@@ -20,10 +21,10 @@ class Menu extends Component {
                         <div className="collapse navbar-collapse" id="navbarResponsive">
                             <ul className="rtl navbar-nav ml-auto">
                                 <li className="nav-item">
-                                    <a className="nav-link js-scroll-trigger" href="#signup">ارتباط با ما</a>
+                                    <a className="nav-link js-scroll-trigger" href="#signup">{Lang.ContactUs}</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link js-scroll-trigger" href="#about">درباره جامعه</a>
+                                    <a className="nav-link js-scroll-trigger" href="#about">{Lang.AboutUs}</a>
                                 </li>
                             </ul>
                         </div>

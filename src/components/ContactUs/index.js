@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import Lang from "../../langs/fa";
 
 class ContactUs extends Component {
     render() {
@@ -13,7 +14,7 @@ class ContactUs extends Component {
                                         <i className="fas fa-map-marked-alt text-primary mb-2"/>
                                         <h4 className="text-uppercase m-0">Address</h4>
                                         <hr className="my-4"/>
-                                        <div className="small text-black-50">Iran, Tehran</div>
+                                        <div className="small text-black-50">{Lang.address}</div>
                                     </div>
                                 </div>
                             </div>
@@ -25,7 +26,7 @@ class ContactUs extends Component {
                                         <h4 className="text-uppercase m-0">Email</h4>
                                         <hr className="my-4"/>
                                         <div className="small text-black-50">
-                                            <a href="#">iran.react.community@gmail.com</a>
+                                            <a href="#">{Lang.email}</a>
                                         </div>
                                     </div>
                                 </div>
