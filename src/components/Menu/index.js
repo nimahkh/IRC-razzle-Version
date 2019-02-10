@@ -1,8 +1,14 @@
 import React, {Component} from 'react';
 import Logo from "../../assets/img/logo/144.png"
 import Lang from "../../langs/fa";
+import handleScroll from "../../helper/offsetHandler";
 
 class Menu extends Component {
+
+    componentDidMount(){
+        window.addEventListener('scroll', handleScroll);
+    }
+
     render() {
         return (
             <React.Fragment>
