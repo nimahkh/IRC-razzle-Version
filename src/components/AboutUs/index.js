@@ -18,12 +18,12 @@ class AboutUs extends Component {
                                     جامعه ری‌اکت ایران یک گروه تخصصی در حوزه نرم افزار است که در تاریخ ۱۱ بهمن ۱۳۹۷ با
                                     هدف آشنایی و
                                     مشارکت توسعه‌دهندگان و علاقمندان به کتابخانه متن باز
-                                    <a href="https://reactjs.org/" target="_blank">
+                                    <a href="https://reactjs.org/" target="_blank" rel="noopener noreferrer">
                                         ری‌اکت جی اس
                                         <sup>React js</sup>
                                     </a>
                                     و
-                                    <a href="http://www.reactnative.com/" target="_blank">
+                                    <a href="http://www.reactnative.com/" target="_blank" rel="noopener noreferrer">
                                         ری‌اکت نیتیو
                                         <sup>React Native</sup>
                                     </a>
@@ -36,11 +36,11 @@ class AboutUs extends Component {
                                     <br/>
                                     <br/>
                                     در ادامه این جامعه فعالیت خود را در
-                                    <a href="https://github.com/iran-react-community" target="_blank">GitHub</a>
+                                    <a href="https://github.com/iran-react-community" target="_blank" rel="noopener noreferrer">GitHub</a>
                                     شروع کرد تا هم فرهنگ توسعه و مشارکت متن باز
                                     (<a
                                     href="https://fa.wikipedia.org/wiki/%D9%85%D8%AA%D9%86%E2%80%8C%D8%A8%D8%A7%D8%B2"
-                                    target="_blank">Open Source</a>)
+                                    target="_blank" rel="noopener noreferrer">Open Source</a>)
                                     را در ایران پررنگتر کند و هم افراد جامعه در تعامل با یکدیگر
                                     نقص و کمبود‌های این کتابخانه را رفع و راهکارهای خود را با یکدیگر به اشتراک بگذارند.
                                     <br/>
@@ -112,7 +112,7 @@ class AboutUs extends Component {
                                 <p>
                                     نکته: نیاز به اتصال اینترنت غیر فیلتر می‌باشد.
                                     <br/>
-                                    <a href="https://b2n.ir/ir-react" target="_blank">لینک گـروه تلگرام جامعه ری‌اکت
+                                    <a href="https://b2n.ir/ir-react" target="_blank" rel="noopener noreferrer">لینک گـروه تلگرام جامعه ری‌اکت
                                         ایران</a>
                                 </p>
 
@@ -123,7 +123,7 @@ class AboutUs extends Component {
                                 <p>
                                     نکته: نیاز به اتصال اینترنت غیر فیلتر می‌باشد.
                                     <br/>
-                                    <a href="https://t.me/iran_react" target="_blank">لینک کـانال تلگرام جامعه ری‌اکت
+                                    <a href="https://t.me/iran_react" target="_blank" rel="noopener noreferrer">لینک کـانال تلگرام جامعه ری‌اکت
                                         ایران</a>
                                 </p>
 
@@ -131,8 +131,8 @@ class AboutUs extends Component {
                                     <i className="fab fa-github"></i>
                                     گیت‌هاب
                                 </h3>
-                                <p>
-                                    <a href="https://github.com/iran-react-community" target="_blank">
+                                <div>
+                                    <a href="https://github.com/iran-react-community" target="_blank" rel="noopener noreferrer">
                                         لینک صفحه سازمانی جامعه ری‌اکت ایران در گیت‌هاب
                                     </a>
                                     <br/>
@@ -144,7 +144,7 @@ class AboutUs extends Component {
                                         </li>
                                         <li>
                                             بعد از ثبت عضویت به شما اطلاع داده خواهد شد. در این لحظه باید به
-                                            <a href="https://github.com/iran-react-community" target="_blank">
+                                            <a href="https://github.com/iran-react-community" target="_blank" rel="noopener noreferrer">
                                                 صفحه سازمانی جامعه در گیت هاب
                                             </a>
                                             بروید.
@@ -159,7 +159,7 @@ class AboutUs extends Component {
                                             اورگان هم نیستند شما را به عنوان عضو جامعه مشاهده کنند.
                                         </li>
                                     </ol>
-                                </p>
+                                </div>
 
                                 <h3>
                                     <i className="fab fa-twitter"></i>
@@ -168,7 +168,7 @@ class AboutUs extends Component {
                                 <p>
                                     نکته: نیاز به اتصال اینترنت غیر فیلتر می‌باشد.
                                     <br/>
-                                    <a href="http://twitter.com/iran_react" target="_blank">لینک صفحه توئیتر جامعه
+                                    <a href="http://twitter.com/iran_react" target="_blank" rel="noopener noreferrer">لینک صفحه توئیتر جامعه
                                         ری‌اکت ایران</a>
                                 </p>
 
@@ -177,7 +177,7 @@ class AboutUs extends Component {
                                     اینستاگرام
                                 </h3>
                                 <p>
-                                    <a href="http://instagram.com/iran_react" target="_blank">لینک صفحه اینستاگرام جامعه
+                                    <a href="http://instagram.com/iran_react" target="_blank" rel="noopener noreferrer">لینک صفحه اینستاگرام جامعه
                                         ری‌اکت
                                         ایران</a>
                                 </p>
@@ -190,7 +190,7 @@ class AboutUs extends Component {
                                 <p>
                                     برای عضویت به صفحه گروه رفته و بر روی دکمه درخواست عضویت کلیک نمایید.
                                     <br/>
-                                    <a href="https://www.linkedin.com/groups/8742016/" target="_blank">لینک گروه
+                                    <a href="https://www.linkedin.com/groups/8742016/" target="_blank" rel="noopener noreferrer">لینک گروه
                                         لینکداین جامعه ری‌اکت
                                         ایران</a>
                                 </p>
