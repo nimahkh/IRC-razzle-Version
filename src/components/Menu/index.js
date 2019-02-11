@@ -27,7 +27,7 @@ class Menu extends Component {
                         <div className="collapse navbar-collapse" id="navbarResponsive">
                             <ul className="rtl navbar-nav ml-auto">
                                 <li className="nav-item">
-                                    <a className="nav-link js-scroll-trigger" href="#signup">{Lang.ContactUs}</a>
+                                    <a className="nav-link js-scroll-trigger" href="#contact">{Lang.ContactUs}</a>
                                 </li>
                                 <li className="nav-item">
                                     <a className="nav-link js-scroll-trigger" href="#about">{Lang.AboutUs}</a>
